@@ -4,19 +4,38 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>HTML5 Drag and Drop</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
-
 	<script src="js/app.js"></script>
 
 <style type="text/css" media="screen">
+	section{
+		margin:20px auto;
+		display: block;
+	}
 
+	p{
+		margin: 5px 0px 5px 0px;
+	}
+
+	span{
+		display: block;
+	}
 
 </style>
 
 </head>
 <body>
 
+<section>
+	<p id="location">Your current location is: 
+		<span id="long">Seeking...</span>
+		<span id="lat">Seeking...</span>
+	</p>
+
+	<p id="accuracy">
+		this is accurate to: 
+		<span id="accur">Seeking...</span>
+	</p>
+</section>
 
 
 </body>
